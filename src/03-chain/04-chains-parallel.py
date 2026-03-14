@@ -4,6 +4,10 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnableLambda, RunnableParallel
 
+"""
+Here the two branches (pros and cons) run in parallel after the initial model call that extracts the features. 
+The outputs from both branches are then combined into a single string format for the final output.
+"""
 load_dotenv()
 model = ChatCohere(model="command-r-plus-08-2024")
 
