@@ -1,5 +1,0 @@
-langchain
-langchain-cohere
-cohere
-python-dotenv
-chromadb
