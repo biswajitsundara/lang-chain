@@ -5,3 +5,5 @@
 4. run the command `pip install -r requirements.txt`
 5. Run `pip install <package_name>` as the project grows.
 6. Run `pip freeze > requirements.txt` to save the exact versions of everything currently in your .venv
+
+Ref - https://www.youtube.com/watch?v=yF9kGESAi3M
